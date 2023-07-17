@@ -1,0 +1,16 @@
+.btns {
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  color: white;
+  background-color: black;
+  height: 40px;
+  border-radius: 10%;
+  width: auto;
+  margin-bottom: 20px;
+}
+:disabled {
+  background-color: rgb(110, 110, 110);
+  cursor: not-allowed;
+}
