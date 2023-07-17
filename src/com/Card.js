@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 export default class Card extends Component {
   render() {
-    let { title, discription, imgurl } = this.props;
+    let { title, sdddiscription, imgurl } = this.props;
     return (
       <div className="card" style={{ width: "18rem" }}>
         <img
